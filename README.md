@@ -1,6 +1,8 @@
 # README #
 #Logs Analysis Project
+
 An internal reporting tool that uses information of large database from a newspaper website and draw business conclusions from this information.
+
 ### Project as requirement to complete Udacity full stack developer course.
 
 > Lawrence Nara
@@ -25,14 +27,14 @@ This is a python class that uses information of large database from a newspaper 
 - VirtualBox
 
 ### How to install
-1. Install Vagrant And VirtualBox
-2. Clone this repository
+1. Install Vagrant [Download link](https://www.vagrantup.com/downloads.html) And VirtualBox [Download link](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
+2. Clone this repository in your vagrant folder
 
 ### Setup database
 
 Launch Vagrant VM by running `vagrant up`, you can then log in with `vagrant ssh` for linux and `winpty vagrant ssh` for windows
 
-* <h4>Download the <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip">data</a></h4>
+*Download the [Data link](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 You will need to unzip this file after downloading it. The file inside is called newsdata.sql. Put this file into the vagrant directory, which is shared with your virtual machine.
 
 To load the data into your database, use the command `psql -d news -f newsdata.sql`
@@ -41,7 +43,7 @@ To load the data into your database, use the command `psql -d news -f newsdata.s
  run `python log_analysis.py` from the command line.
  
 ### The expected output
-![project_results.jpg](https://github.com/nara-l/log_analysis_udacity_project/blob/master/project_results.PNG)
+![project_results.jpg](https://github.com/nara-l/logs_analysis_udacity_project/blob/master/project_results.PNG)
 
 ## Issues
 
